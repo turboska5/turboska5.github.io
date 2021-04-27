@@ -14,8 +14,8 @@ hr {
 #headerBox {
   background-color: white;
   opacity: 0.85;
-  margin: 0 -9999rem;
-  padding: 0.25rem 9999rem;
+  margin: 0rem -0.5rem;
+  padding: 0.25rem;
   transform: translateY(-8px);
 }
 button#homeIcon {
