@@ -7,3 +7,31 @@ header, body {
   cursor: context-menu;
   font: 12px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
 }
+hr {
+  border-color: black;
+}
+
+#headerBox {
+  background-color: white;
+  opacity: 0.85;
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+  transform: translateY(-8px);
+}
+button#homeIcon {
+  background: url("../img/LetterA.png") no-repeat;
+  height: 30px;
+  width: 30px;
+  background-size: 30px 30px;
+  margin: 0px;
+  padding: 5px;
+  border: none;
+  border-radius: 0%;
+}
+#owner {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  transform: translate(10px, 1px);
+}
