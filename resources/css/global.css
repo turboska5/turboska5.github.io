@@ -1,12 +1,11 @@
-html {
+/* html {
   background: url(../img/background.jpg) no-repeat center fixed;
   background-size: cover;
-}
-header, body {
+} */
+/* header, body {
   cursor: context-menu;
-  font: 12px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
-}
-button#ownerIcon {
+} */
+button#brandIcon {
   background: url("../img/LetterA.png") no-repeat;
   height: 30px;
   width: 30px;
@@ -17,15 +16,8 @@ button#ownerIcon {
   border-radius: 0%;
   transform: translateX(10px);
 }
-#owner {
-  font-size: 20px;
+.footerText {
+  font-size: 10px;
   font-weight: bold;
   color: white;
-  display: inline-block;
-  transform: translate(15px, -3px);
-}
-#collapsibleNavbar {
-  position: absolute;
-  top: 23px;
-  right: 10px;
 }
