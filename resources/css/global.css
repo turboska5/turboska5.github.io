@@ -1,7 +1,6 @@
 html {
   background: url(../img/background.jpg) no-repeat center fixed;
   background-size: cover;
-  min-width: 800px;
 }
 header, body {
   cursor: context-menu;
