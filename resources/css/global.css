@@ -1,10 +1,7 @@
-/* html {
+body {
   background: url(../img/background.jpg) no-repeat center fixed;
   background-size: cover;
-} */
-/* header, body {
-  cursor: context-menu;
-} */
+}
 button#brandIcon {
   background: url("../img/LetterA.png") no-repeat;
   height: 30px;
@@ -20,4 +17,7 @@ button#brandIcon {
   font-size: 10px;
   font-weight: bold;
   color: white;
+}
+.mainArea {
+  background-color: white;
 }
