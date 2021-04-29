@@ -24,6 +24,12 @@ button#brandIcon {
   display: inline-block;
   transform: translate(15px, -3px);
 }
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+.nav-item {
+  text-align: right;
+}
 .footerText {
   font-size: 10px;
   font-weight: bold;
