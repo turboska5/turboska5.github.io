@@ -2,6 +2,10 @@ body {
   background: url(../img/background.jpg) no-repeat center fixed;
   background-size: cover;
 }
+.navbar-brand {
+  margin: 0px !important;
+  width: 210px;
+}
 button#brandIcon {
   background: url("../img/LetterA.png") no-repeat;
   height: 30px;
@@ -13,11 +17,15 @@ button#brandIcon {
   border-radius: 0%;
   transform: translateX(10px);
 }
+#brandName {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  transform: translate(15px, -3px);
+}
 .footerText {
   font-size: 10px;
   font-weight: bold;
   color: white;
-}
-.mainArea {
-  background-color: white;
 }
