@@ -2,20 +2,26 @@ body {
   background: url(../img/background.jpg) no-repeat center fixed;
   background-size: cover;
 }
-.navbar-brand {
-  margin: 0px !important;
-  width: 210px;
+main {
+  color: white;
 }
-button#brandIcon {
+p {
+  text-shadow: 2px 2px black;
+}
+
+.navbar-brand {
+  width: 210px;
+ margin: 0px !important;
+}
+#brandIcon {
   background: url("../img/LetterA.png") no-repeat;
   height: 30px;
   width: 30px;
   background-size: 30px 30px;
   margin: 0px;
+  transform: translateX(10px);
   padding: 5px;
   border: none;
-  border-radius: 0%;
-  transform: translateX(10px);
 }
 #brandName {
   font-size: 20px;
@@ -30,6 +36,19 @@ button#brandIcon {
 .nav-item {
   text-align: right;
 }
+
+#brandImage {
+  background: url("../img/profile.png") no-repeat;
+  height: 400px;
+  width: 400px;
+  background-size: 400px 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  border: none;
+}
+
 .footerText {
   font-size: 10px;
   font-weight: bold;
