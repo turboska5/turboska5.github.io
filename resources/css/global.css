@@ -39,3 +39,7 @@ main {
   font-weight: bold;
   color: white;
 }
+
+.shiftUp {
+  transform: translateY(4px);
+}
